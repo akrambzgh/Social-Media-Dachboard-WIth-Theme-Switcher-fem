@@ -1,0 +1,16 @@
+.overview {
+  position: relative;
+  .overview-content {
+    @include grid();
+  }
+  .title {
+    h1 {
+      margin-bottom: 10px;
+      color: $VeryDarkBlue;
+      transition: 300ms;
+      &.white {
+        color: $White;
+      }
+    }
+  }
+}

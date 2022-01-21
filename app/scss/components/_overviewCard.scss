@@ -1,0 +1,56 @@
+.card {
+  padding: 15px 25px;
+  border-radius: 4px;
+  background-color: $LightGrayishBlue;
+  position: relative;
+  transition: 300ms;
+  &.dark {
+    background-color: $DarkDesaturatedBlue;
+    .numbers {
+      .big-num {
+        h1 {
+          color: $White;
+        }
+      }
+    }
+    .type {
+      .text {
+        h4 {
+          color: $DesaturatedBlue;
+        }
+      }
+    }
+  }
+  .type {
+    @include flex(space-between, center, row);
+    margin-bottom: 25px;
+    .text {
+      h4 {
+        color: $DarkGrayishBlue;
+        transition: 300ms;
+      }
+    }
+  }
+  .numbers {
+    @include flex(space-between, center, row);
+    .big-num {
+      h1 {
+        font-size: 35px;
+        color: $VeryDarkBlue;
+        transition: 300ms;
+      }
+    }
+    .per {
+      @include flex(space-between, center, row);
+      img {
+        margin-right: 5px;
+      }
+      h4 {
+        color: $LimeGreen;
+        &.down {
+          color: $BrightRed;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.header.dark {
+  background-color: $VeryDarkBlue;
+  transition: 300ms;
+  .content {
+    .title {
+      h1 {
+        margin-bottom: 5px;
+        color: $White;
+      }
+      h3 {
+        font-size: 18px;
+        color: $DesaturatedBlue;
+      }
+    }
+  }
+}

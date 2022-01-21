@@ -1,0 +1,45 @@
+.header {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 170px;
+  background-color: $VeryPaleBlue;
+  transition: 300ms;
+  .content {
+    @include flex(space-between, center, row);
+    @include smallScreen {
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .title{
+      @include smallScreen {
+        border-bottom: 1px solid $DarkGrayishBlue;
+        padding-bottom: 50px;
+      }
+      h1 {
+        margin-bottom: 5px;
+        color: $VeryDarkBlue;
+        transition: 300ms;
+      }
+      h3 {
+        font-size: 18px;
+        color: $DarkGrayishBlue;
+        transition: 300ms;
+      }
+    }
+    .theme {
+      @include flex(center, center, row);
+      @include smallScreen {
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 25px;
+      }
+      .text {
+        h3 {
+          margin-right: 15px;
+          color: $DarkGrayishBlue;
+        }
+      }
+    }
+  }
+
+}
