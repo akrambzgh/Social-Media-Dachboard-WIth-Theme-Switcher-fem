@@ -1,0 +1,24 @@
+{
+  "name": "social-media-dachboard-with-theme-switcher-fem",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass app/scss/main.scss dist/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akrambzgh/Social-Media-Dachboard-WIth-Theme-Switcher-fem.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akrambzgh/Social-Media-Dachboard-WIth-Theme-Switcher-fem/issues"
+  },
+  "homepage": "https://github.com/akrambzgh/Social-Media-Dachboard-WIth-Theme-Switcher-fem#readme",
+  "dependencies": {
+    "dart-sass": "^1.25.0",
+    "sass": "^1.49.0"
+  }
+}
