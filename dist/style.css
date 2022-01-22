@@ -241,6 +241,9 @@ ul {
   background: linear-gradient(#378fe6, #3eda82);
 }
 .switch.click .slider::before {
+  background-color: #1e202a;
+}
+.switch.click .slider::before {
   transform: translateX(32px);
 }
 .switch .slider {
@@ -353,7 +356,7 @@ body {
 }
 
 .header.dark {
-  background-color: #1e202a;
+  background-color: #1f212e;
   transition: 300ms;
 }
 .header.dark .content .title h1 {
